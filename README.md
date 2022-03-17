@@ -1,6 +1,6 @@
 # startpage
 
-A tokyonight themed startpage
+A tokyonight themed clean startpage 
 
 ![alt text](https://github.com/MrKai77/startpage/blob/main/images/Firefox-Screenshot.png)
 
