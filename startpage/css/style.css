@@ -1,0 +1,278 @@
+body {
+    background: #25283a;
+}
+
+.textbox {
+    background: #25283a;
+    width: 19.27%;
+    height: 26%;
+    min-width: 375px;
+    min-height: 240px;
+    top: 20%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border: 5px solid #1b1b25;
+    border-radius: 20px;
+    z-index: 1;
+}
+
+.textbox_shadow {
+    background: #1b1b25;
+    width: 19.27%;
+    height: 26%;
+    min-width: 375px;
+    min-height: 240px;
+    top: 21%;
+    left: 50.5%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    border: 5px solid #1b1b25;
+    border-radius: 20px;
+}
+
+.textbox_text {
+    font-family: "Fira Code";
+    font-weight: Bold;
+    font-size: 30px;
+    padding-top: 10%;
+     color: #adb0ce;
+}
+
+.textbox_social {
+    font-family: "Fira Code";
+    font-weight: 500;
+    font-size: 20px;
+    padding-top: 12%;
+    color: #adb0ce;
+}
+
+.mygithub, .myreddit, .myinsta {
+    font-family: "Fira Code";
+    font-weight: 600;
+    font-size: 18px;
+    border: 3px solid #adb0ce;
+    border-radius: 10px;
+    margin: 10% 2% 0 2%;
+    padding: 1.5% 1.5% 1.5% 1.5%;
+    color: #adb0ce;
+    background-color: #25283a;
+}
+
+.mygithub:hover, .myreddit:hover, .myinsta:hover {
+    color: #25283a;
+    background-color: #adb0ce;
+    cursor: pointer;
+}
+
+input::-ms-clear,
+input::-ms-reveal{
+	display:none;width:0;height:0;
+}
+input::-webkit-input-placeholder { color: #1b1b25; }
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button,
+input::-webkit-search-results-button,
+input::-webkit-search-results-decoration{
+	display:none;
+}
+
+.search {
+    color: #adb0ce;
+    background: #25283a;
+    font-family: "Fira Code";
+    font-weight: 500;
+    font-size: 20px;
+    border-radius: 15px;
+    border: 5px solid #1b1b25;
+    outline: none;
+    position: absolute;
+    width: 52.1%;
+    height: 7.4%;
+    min-width: 300px;
+    min-height: 80px;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-left: 20px;
+    z-index: 1;
+}
+
+.search_shadow {
+    background: #1b1b25;
+    border-radius: 15px;
+    border: 5px solid #1b1b25;
+    outline: none;
+    position: absolute;
+    width: 51.6%;
+    height: 6.6%;
+    min-width: 300px;
+    min-height: 80px;
+    top: 46%;
+    left: 50.5%;
+    transform: translate(-50%, -50%);
+}
+
+.urls_Home {
+    width: 15.1%;
+    height: 20;
+    min-width: 205px;
+    min-height: 240px;
+    background: #25283a;
+    border-radius: 15px;
+    border: 5px solid #1b1b25;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 70%;
+    left: 50%;
+    z-index: 1;
+    text-align: center;
+}
+
+.urls_shadow_Home {
+    width: 15.1%;
+    height: 20;
+    min-width: 205px;
+    min-height: 240px;
+    background: #1b1b25;
+    border-radius: 15px;
+    border: 5px solid #1b1b25;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 71%;
+    left: 50.5%;
+}
+
+.urls_Dev {
+    width: 15.1%;
+    height: 20;
+    min-width: 205px;
+    min-height: 240px;
+    background: #25283a;
+    border-radius: 15px;
+    border: 5px solid #1b1b25;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 70%;
+    left: 30%;
+    z-index: 1;
+    text-align: center;
+}
+
+.urls_shadow_Dev {
+    width: 15.1%;
+    height: 20;
+    min-width: 205px;
+    min-height: 240px;
+    background: #1b1b25;
+    border-radius: 15px;
+    border: 5px solid #1b1b25;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 71%;
+    left: 30.5%;
+}
+
+.urls_Edu {
+    width: 15.1%;
+    height: 20;
+    min-width: 205px;
+    min-height: 240px;
+    background: #25283a;
+    border-radius: 15px;
+    border: 5px solid #1b1b25;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 70%;
+    left: 70%;
+    z-index: 1;
+    text-align: center;
+}
+
+.urls_shadow_Edu {
+    width: 15.1%;
+    height: 20;
+    min-width: 205px;
+    min-height: 240px;
+    background: #1b1b25;
+    border-radius: 15px;
+    border: 5px solid #1b1b25;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 71%;
+    left: 70.5%;
+}
+
+.github, .brew, .youtube, .reddit, .insta, .discord, .classroom, .d2l, .mail, .quizlet {
+    outline: none;
+    border: none;
+    font-family: "Fira Code";
+    font-weight: 500;
+    font-size: 25px;
+    position: relative;
+    background: #25283a;
+    padding: 20px 20px 0px 20px;
+    color: #adb0ce;
+}
+
+.github:hover, .brew:hover, .youtube:hover, .reddit:hover, .insta:hover, .discord:hover, .classroom:hover, .d2l:hover, .mail:hover, .quizlet:hover {
+    cursor: pointer;
+    color: #464646;
+}
+
+@media screen and (max-width: 480px) {
+    .textbox {
+        top: 45%;
+        left: 50%;
+        min-width: 87.6%;
+        min-height: 250px;
+    }
+
+    .textbox_shadow {
+        top: 46%;
+        left: 52%;
+        min-width: 87.6%;
+        min-height: 253px;
+    }
+
+    .search {
+        top: 15%;
+        left: 50%;
+        min-width: 87.6%;
+    }
+
+    .search_shadow {
+        top: 16%;
+        left: 53%;
+        min-width: 84.1%;
+        min-height: 10%;
+    }
+
+    .urls {
+        min-width: 87.6%;
+        left: 50%;
+        top: 80%;
+        min-height: 9%;
+    }
+
+    .urls_shadow {
+        left: 52.3%;
+        top: 81%;
+        min-height: 13%;
+        min-width: 86%;
+    }
+
+    .youtube, .netflix, .unixporn, .github {
+        display: none;
+    }
+
+    .youtube_mobile, .google_mobile, .unixporn_mobile, .github_mobile {
+        display: inline-block;
+        font-size: 40px;
+        color: #1b1b25;
+        border: none;
+        background: #25283a;
+        padding: 5.3%;
+    }
+}
