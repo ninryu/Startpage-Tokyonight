@@ -19,7 +19,7 @@ body {
 }
 
 .textbox_shadow {
-    background: #1b1b25;
+    background: #F28FAD 	;
     width: 19.27%;
     height: 26%;
     min-width: 375px;
@@ -100,7 +100,7 @@ input::-webkit-search-results-decoration{
 }
 
 .search_shadow {
-    background: #1b1b25;
+    background: #DDB6F2;
     border-radius: 15px;
     border: 5px solid #1b1b25;
     outline: none;
@@ -109,7 +109,7 @@ input::-webkit-search-results-decoration{
     height: 6.6%;
     min-width: 300px;
     min-height: 80px;
-    top: 46%;
+    top: 45.5%;
     left: 50.5%;
     transform: translate(-50%, -50%);
 }
@@ -135,7 +135,7 @@ input::-webkit-search-results-decoration{
     height: 20;
     min-width: 205px;
     min-height: 240px;
-    background: #1b1b25;
+    background: #FAE3B0;
     border-radius: 15px;
     border: 5px solid #1b1b25;
     position: absolute;
@@ -165,7 +165,7 @@ input::-webkit-search-results-decoration{
     height: 20;
     min-width: 205px;
     min-height: 240px;
-    background: #1b1b25;
+    background: #89DCEB;
     border-radius: 15px;
     border: 5px solid #1b1b25;
     position: absolute;
@@ -195,7 +195,7 @@ input::-webkit-search-results-decoration{
     height: 20;
     min-width: 205px;
     min-height: 240px;
-    background: #1b1b25;
+    background: #ABE9B3;
     border-radius: 15px;
     border: 5px solid #1b1b25;
     position: absolute;
@@ -270,7 +270,7 @@ input::-webkit-search-results-decoration{
     .youtube_mobile, .google_mobile, .unixporn_mobile, .github_mobile {
         display: inline-block;
         font-size: 40px;
-        color: #1b1b25;
+        color: #89DCEB;
         border: none;
         background: #25283a;
         padding: 5.3%;
